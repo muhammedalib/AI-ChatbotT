@@ -1,0 +1,194 @@
+{"intents": [
+
+	{"tag": "selam",
+	"patterns": ["merhaba","merhabalar","selam","selamın aleykum","selamlar","hocam","alo","hey","heyyo","destek ekiple görüşebilir miyim","kimse var mı","destek","sa","nasılsınız","hello","hi"],
+	"responses":["Merhaba, nasıl yardımcı olabilirim","Selamlar, nasıl yardımcı olabilirim?"]}
+	,	
+
+	{"tag": "kurs",
+	"patterns": ["kurslarınız neler","hangi kurslar var","kurslarınız nedir","kurslarınız hakkında bilgi alabilir miyim","ne tür kurslarınız var","kurslarınızı öğrenebilir miyim","ingilizce kursunuz var mı","yabancı dil kurslarınız bulunuyor mu"],
+	"responses":["yds, ielts, yokdil ve genel ingilizce kurslarımız bulunmaktadır"]}
+	
+	,	
+
+	{"tag": "yds kursu",
+	"patterns": ["yds kursunuz var mı","yds dersleriniz var mı","yds ile ilgili kursunuz bulunuyor mu","yds kursu veriyor musunuz"],
+	"responses":["Evet yds kursumuz bulunmaktadır."]}
+
+	,	
+
+	{"tag": "ielts kursu",
+	"patterns": ["ielts kursunuz var mı","yds dersleriniz var mı","ielts ile ilgili kursunuz bulunuyor mu","ielts kursu veriyor musunuz"],
+	"responses":["Evet ielts kursumuz bulunmaktadır."]}
+
+	,	
+
+	{"tag": "yds",
+	"patterns": ["yds","yds hakkında bilgi alabilir miyim","yds kursu hakkında bilgi verir misiniz","yds hakkında bilgi verirmisiniz"],
+	"responses":["yds kurslarımız online olarak verilmektedir. Her 2 ay da bir yeni kursumuz başlamaktadır."]}
+
+	,	
+
+	{"tag": "ielts",
+	"patterns": ["ielts","yds hakkında bilgi alabilir miyim","ielts kursu hakkında bilgi verir misiniz","ielts hakkında bilgi verirmisiniz"],
+	"responses":["ielts kurslarımız online olarak verilmektedir. Her 2 ay da bir yeni kursumuz başlamaktadır."]}
+	
+	
+	,	
+
+	{"tag": "ücret",
+	"patterns": ["ücretler nedir","kurs ücretleriniz nedir","ücretler nasıl","ücretler hakkında bilgi verir misiniz","ne kadar ödememiz gerekli","fiyatlar nedir","fiyatları söylermisiniz","fiyat hakkında bilgi alacaktım","fiyat","ücret","fiyatlar nedir","fiyatları söyle bakayım","fiyatınız neler","ücret ney","indirim var mı","en son ne olur","en son kaça olur","indirim yapsana","herbir eğitimin fiyatı farklı mı","en son bana ne olur","son fiyat bana ne olur","son fiyat nedir","bize oluru ne","ücret tarifeniz nedir","ücretle ilgili bilgi almam mümkün müdür","buradan fiyat öğrenebiliyor muyuz","fiyat öğrenebilir miyim","ücret öğrenebilir miyim"],
+	"responses":["kurs ücretlerimiz yds için yıllık binaltıyüz(1600)tl yokdil için yıllık ikibin(2000) tl ielts için yıllık binsekizyüz (1800)tl ve genel ingilizce kursumuz için ise yıllık bindörtyüz (1400) tldir"]}
+	
+
+	,	
+
+	{"tag": "yds fiyat",
+	"patterns": ["yds fiyatları nedir","yds kursu ne kadar","yds ücreti nedir","yds ücretleri ney","yds kaç para","yds kursu ne kadar","yds ücreti","yds maliyeti","yds maliyeti nedir","yds kursu için borcum ne olur","yds kursunun fiyatını öğrenebilir miyim"],
+	"responses":["yds ücretimiz yıllık 1600 tl dir"]}
+
+	
+	,	
+
+	{"tag": "ielts fiyat",
+	"patterns": ["ielts fiyatları nedir","ielts kursu ne kadar","ielts ücreti nedir","ielts ücretleri ney","ielts kaç para","ielts kursu ne kadar","ielts ücreti","ielts maliyeti","ielts maliyeti nedir","ielts kursu için borcum ne olur","ielts kursunun fiyatını öğrenebilir miyim"],
+	"responses":["ielts ücretimiz yıllık 1600 tl dir"]}
+
+
+	,	
+
+	{"tag": "genel ingilizce",
+	"patterns": ["genel ingilizce","genel ingilizce hakkında bilgi alabilir miyim","genel ingilizce kursunuz hakkında bilgi verir misiniz","genel ingilizce hakkında bilgi verir misiniz"],
+	"responses":["genel ingilizce kurslarımız online olarak verilmektedir. Her 2 ay da bir yeni kursumuz başlamaktadır."]}
+	
+	
+	,	
+
+	{"tag": "genel ingilizce",
+	"patterns": ["genel ingilizce","genel ingilizce hakkında bilgi alabilir miyim","genel ingilizce kursunuz hakkında bilgi verir misiniz","genel ingilizce hakkında bilgi verir misiniz","genel ingilizce eğitimi hakkında bilgi alabilir miyim","genel ingilizce","genel ingilizce hakkında bilgi alabilir miyim","genel ingilizce kursunuz hakkında bilgi verir misiniz","genel ingilizce hakkında bilgi verir misiniz"],
+	"responses":["genel ingilizce kurslarımız online olarak verilmektedir. Her 2 ay da bir yeni kursumuz başlamaktadır."]}
+
+	
+
+	,	
+
+	{"tag": "genel ingilizce kurs fiyatları",
+	"patterns": ["genel ingilizce fiyatları nedir","genel ingilizce kursu ne kadar","genel ingilizce ücreti nedir","genel ingilizce ücretleri ney","genel ingilizce kaç para","genel ingilizce maliyeti nedir","genel ingilizce maliyeti","genel ingilizce kursu ne kadar","genel ingilizce ücreti"],
+	"responses":["genel ingilizce kurs ücretimiz yıllık 2000 tl dir"]}
+
+	,	
+
+	{"tag": "yds tarih",
+	"patterns": ["yds en yakın ne zaman","yds ne zaman başlıyor","yds kursunuz ne zaman","yds başlangıç tarihi ne zaman","en yakın yds ne zaman","yds başlangıcı nedir","yds kurs tarihi"],
+	"responses":["en yakın yds kursumuz 1 haziranda başlamaktadır"]}	
+
+	
+	,	
+
+	{"tag": "ielts tarih",
+	"patterns": ["ielts en yakın ne zaman","ielts ne zaman başlıyor","ielts kursunuz ne zaman","ielts başlangıç tarihi ne zaman","en yakın ielts ne zaman","ielts başlangıcı nedir","ielts kurs tarihi"],
+	"responses":["en yakın ielts kursumuz 1 mayısta başlamaktadır."]}
+
+	
+	,	
+
+	{"tag": "genel ingilizce tarih",
+	"patterns": ["genel ingilizce en yakın ne zaman","genel ingilizce ne zaman başlıyor","genel ingilizce kursunuz ne zaman","genel ingilizce başlangıç tarihi ne zaman","en yakın genel ingilizce ne zaman","genel ingilizce başlangıcı nedir","genel ingilizce kurs tarihi"],
+	"responses":["genel ingilizce kursumuz 1 mayısta başlamaktadır."]}
+
+	
+	,	
+
+	{"tag": "üyelik",
+	"patterns": ["üyelik hakkında bilgi alabilir miyim","üyelik hakkında","üyelik süresi","üyelik nasıl oluyor","üyelik","üye olmanın avantajları neler","üye","abone","abonelik","abonelik nasıl oluyor"],
+	"responses":["sistemimize üye olduktan sonra kurs süresince bütün imkanlardan faydalanabilirsiniz."]}
+
+	
+	,	
+
+	{"tag": "bot",
+	"patterns": ["sen gerçek misin","sen nesin","sen kimsin","sen nesin böyle","üyelik","sen gerçek misin ki","kiminle görüşüyorum"],
+	"responses":["Ben bir mesajlaşma botuyum."]}
+
+	,	
+
+	{"tag": "ücret iadesi",
+	"patterns": ["ücret iadesi","ücret iadeleri nasıl","ücreti geri alabiliyor muyuz","vazgeçme ücret iadesi","iade","iade etme şansımız var mı","ücret iadesi yapıyor musunuz","üyelik iptali nasıl oluyor","para iadesi yapıyor musunuz","parayı geri ödüyor musunuz","geri ödeme"],
+	"responses":["Kurslarımız başlamadıysa ödemenizi 15 gün içinde alabilirsiniz. Başladıysa kalan günlerin ücretini geri iade alabilirsiniz."]}
+	
+	
+	,	
+
+	{"tag": "soru",
+	"patterns": ["bir sorum var","soru soracagım","soru","bir şey sorabilir miyim","hey bir sorum var","baksana","baksana bi bana","bana bak","orada mısın","kimse var mı","hey","hello","hi","soru sorabilir miyim"],
+	"responses":["Size nasıl yardımcı olabilirim?"]}
+	
+	
+	,	
+
+	{"tag": "ödeme yolları",
+	"patterns": ["Ödemeler nasıl","Ödemeleri nasıl yapıyoruz","Kredi kartı geçerli mi","Kredi kartıyla ödeme yapabiliyor muyuz","Nakit mi ödemek zorundayız","Peşin mi ödeme yapıyoruz","Ödeme yöntemleri neler","Taksit yapıyormusunuz","Taksit imkanları nedir","Taksitlendirme var mı","Taksitlendirmeler nasıl","Ücretin hepsini peşin mi yapıyoruz","hepsini peşin mi ödüyoruz","ödeme","taksit","kredi kartı","kredi kartı geçerli mi","ödeme yolları neler"],
+	"responses":["İster peşin isterseniz taksitli olarak tüm kredi kartlarına 6 taksitle ödeme yapabilirsiniz"]}
+
+	,	
+
+	{"tag": "kurs tarihleri",
+	"patterns": ["Tarihler nedir","Zamanlar nedir","Kurs tarihleriniz nedir","Kurs tarihleri","tarihler","Kurslar ne zaman"],
+	"responses":["yds kursları 1 haziranda, ielts ve genel ingilizce kursları ise 1 mayısta başlamaktadır."]}
+
+	,	
+
+	{"tag": "kontenjan",
+	"patterns": ["Kontenjan var mı","yds de yeriniz var mı","ielts de yeriniz var mı","genel ingilizcede yeriniz var mı","yds kursunuzda yer var mı","yds kursunuz dolu mu","ielts kursunuzda yer var mı","ielts kursunuz dolu mu","genel ingilizce kursunuzda yer var mı","genel ingilizce kursunuz dolumu"],
+	"responses":["kurslarımız online olduğu için her zaman yer bulunmaktadır."]}
+	
+	
+	,	
+
+	{"tag": "tepki",
+	"patterns": ["teşekkür ederim","teşekkürler","teşekkür","saolun","çok saol","saol","saolasın","eyvallah","eyw","eyv","ty","thanx","sağ ol","sağ olun","sağ olasın","teşekkür ettim","cansın","teşekkür ederim iyi günler"],
+	"responses":["Ben teşekkür ederim. Yardımcı olmamı istediğiniz başka bir konu var mı ?"]}
+
+	
+	
+	,	
+
+	{"tag": "adres",
+	"patterns": ["adresiniz nedir","adres","adres ney","muhitiniz neresi","muhitiniz","nereden ulaşabilirim","size nasıl ulaşabilirim","ulaşım adresiniz nedir","size ulaşmak istiyorum","adresini versene","size ulaşmak sitiyorum","mail","mail adresiniz ne","size nasıl ulaşcam","size nasıl ulaşacağım","size nerden ulaşcam","iletişim","iletişim bilgileri","sizinle nasıl iletişime geçebilirim","sizinle iletişim nasıl kurcam"],
+	"responses":["Mail adresimiz:info@kurs.com, Bize buradan 7/24 ulaşabilirsiniz"]}
+
+
+	
+	
+	,	
+
+	{"tag": "hoca",
+	"patterns": ["hocalarınız iyimi","hocalarınız bilgili mi","hocalarınız","hoca","hocalarınız kim","öğretmenleriniz kim","öğretmenleriniz iyi mi","hocalar nasıl","öğretmenler nasıl","eğitmenleriniz iyi mi","eğitmen","eğitmen kadrosu","eğitmenlerinizin durumu nasıl"],
+	"responses":["Öğretmenlerimiz son derece iyi ve yeterlidir."]}
+
+
+
+	,	
+
+	{"tag": "kurs harici",
+	"patterns": ["yayınlarınız var mı","kitabınız var mı","kurs harici çalışmalarınız bulunuyor mu","başka çalışmalarınız var mi","kurs harici başka yayın kullanıyor musunuz","başka yayınlarınız mevcut mu"],
+	"responses":["kurs haricinde yayınlarımız ve kitaplarımız da mevcuttur."]}
+	
+	
+
+	,	
+
+	{"tag": "telefon",
+	"patterns": ["telefon","telefonunuz nedir","iletişim telefonunuz","telefon kaç","iletişim numarası","telefon numarası","nasıl ulaşıcam","iletişim","tel","tel no","tel no kaç","nasıl iletişime geçicem","iletişim no","no","numara","irtibat no","irtibat","nasıl irtibata geçicem"],
+	"responses":["Telefon numaramız : 0312 222 55 55"]}
+
+
+	,	
+
+	{"tag": "anlamsız",
+	"patterns": [""],
+	"responses":["Söylediklerinizi anlayamadım.Lütfen daha detaylı bilgi verebilir misiniz?"]}
+
+	
+
+]}
